@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  color: #daf6ff;
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: khaki;
+  color: black;
+  }
+
+.keterangan p {
+  text-align: center;
+  border-bottom: 5px solid blue;
+  
+
+}
+
+
+.elemen-bergerak {
+  animation: gerakan 2s ease-in-out infinite; /* Atur durasi dan jenis animasi */
+}
+.container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 10px;
+  
+}
+
+.container_2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.container,
+.container_2 {
+  background-color: black;
+  font-size: 17px;
+  width: calc(45% - 20px); 
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+
+.container p,
+.container_2 p {
+  font-weight: bold;
+}
+
+
+
+input[type="number"] {
+  width: 95%;
+  padding: 10px;
+  color: #daf6ff;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Share Tech Mono', monospace;
+  color: black;
+}
+
+
+.hasil-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+    background-color:orangered;
+    width: 50%;
+  }
+  
+
+.hasil {
+  padding: 10px;
+  text-align: center;
+  flex-basis: 100%; 
+}
+
+
+.hasil span {
+  font-size: 24px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <style>
+        .center {
+          text-align: center;
+        }
+      </style>
+      <title></title>
+    </head>
+    <body>
+      <div class="center">
+        <h1>Kalkulator Persegi</h1>
+      </div>
+    </body>
+    </html>
+    <div class="container">
+        <p>Hitung Luas Persegi</p>
+        <div>
+            <label for="sisi_luas">Panjang Sisi (cm):</label>
+            <input type="number" id="sisi_luas" placeholder="Masukkan panjang sisi">
+        </div>
+        <div class="keterangan">
+            <p>Rumus Luas Persegi Yaitu:</p>
+            <p>L = S x S</p>
+        </div>
+        <p>Keterangan:</p>
+        <p>L = Luas</p>
+        <p>S = Sisi</p>
+        <button id="hitung_luas">Hitung Luas
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <button id="reset_luas">Reset
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="hasil-container">
+            <div class="hasil">
+                <p>Luas Persegi adalah:</p>
+                <span id="luas">-</span> cm<sup>2</sup>
+            </div>
+        </div>        
+    </div>
+    <div class="container_2">
+        <p>Hitung Keliling Persegi</p>
+        <div>
+            <label for="sisi_keliling">Panjang Sisi (cm):</label>
+            <input type="number" id="sisi_keliling" placeholder="Masukkan panjang sisi">
+        </div>
+        <div class="keterangan">
+            <p>Rumus Keliling Persegi Yaitu:</p>
+            <p>K = 4 x S</p>
+        </div>
+        <p>Keterangan:</p>
+        <p>K = Keliling</p>
+        <p>S = Sisi</p>
+        <button id="hitung_keliling">Hitung Keliling
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <button id="reset_keliling">Reset
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="hasil-container">
+            <div class="hasil">
+                <p>Keliling Persegi adalah:</p>
+                <span id="keliling">-</span> cm
+            </div>
+        </div>        
+    </div>
+
+    <script src="c.js"></script>
+</body>
+</html>
